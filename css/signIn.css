@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  height: 100%;
+}
+
+#container1 .container-fluid {
+  padding: 3% 15% 2%;
+  text-align: left;
+  background-color: #85a392;
+  color: #fff;
+  position: relative;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* form */
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.regular-btn {
+    border-radius: 20px;
+    border: 1px solid #85a392;
+    background-color: #85a392;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.regular-btn:active {
+    transform: scale(0.95);
+}
+
+.regular-btn:focus {
+    outline: none;
+}
+
+form {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 18%;
+  padding-bottom: 20%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+
+.sign-up-container {
+  background-color: #fdd998;
+  padding-top: 18%;
+  padding-bottom: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-bottom:0;
+}
+
+.whole-container {
+  margin-bottom: 0;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5b971;
+    text-align: center;
+    color: #fff;
+}

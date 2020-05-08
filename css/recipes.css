@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  height: 100%;
+}
+
+#container1 .container-fluid {
+  padding: 3% 15% 2%;
+  text-align: left;
+  background-color: #85a392;
+  color: #fff;
+  position: relative;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.leftSide {
+  padding-top: 2%;
+}
+
+img {
+  width: 50%;
+}
+
+.rightSide {
+  padding-top: 3%;
+}
+
+hr {
+    border: dotted gray 1px;
+    border-bottom: none;
+    width: 80%;
+}
+
+h4 {
+  text-align: left;
+  padding-left: 10%
+}
+
+ul {
+  text-align: left;
+  padding-left: 20%;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5b971;
+    text-align: center;
+    color: #fff;
+}

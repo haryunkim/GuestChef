@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  height: 100%;
+}
+
+.container-fluid {
+  padding: 3% 15% 15%;
+  text-align: left;
+  background-color: #85a392;
+  color: #fff;
+  height: 100%;
+  position: absolute;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.username {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 25%;
+}
+
+.options {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.btn1 {
+  margin-right: 3em;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn2:hover span {
+  padding-right: 25px;
+}
+
+.btn1 span:after {
+  content: '\00AB';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.btn1:hover span {
+  padding-left: 25px;
+}
+
+.btn1:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+.btn2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media only screen and (max-width : 768px) {
+  .btn1 {
+    display: block;
+    margin: auto;
+  }
+  .btn2 {
+    display: block;
+    margin: auto;
+  }
+}
+
+/* footer */
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5b971;
+    text-align: center;
+    color: #fff;
+}
